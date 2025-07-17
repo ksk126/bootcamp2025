@@ -47,7 +47,7 @@ int computeUse(UNIT electric)
 	return result;
 }
 
-void printUse(result)
+void printUse(int result)
 {
 	printf("전기 요금: %d원", result);
 
